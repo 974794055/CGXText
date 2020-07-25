@@ -1,0 +1,40 @@
+{
+  "name": "CGXTextOC",
+  "version": "0.0.2",
+  "summary": "CGXText测试上次cocoapod的库",
+  "description": "CGXText测试上次cocoapod的空库",
+  "homepage": "https://github.com/974794055/CGXText",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "974794055": "974794055@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/974794055/CGXText.git",
+    "tag": "0.0.2"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "source_files": "CGXTextOC/CGXTextOC.h",
+  "public_header_files": "CGXTextOC/CGXTextOC.h",
+  "subspecs": [
+    {
+      "name": "MenuA",
+      "source_files": "CGXTextOC/MenuA/**/*.{h,m}"
+    },
+    {
+      "name": "MenuB",
+      "source_files": "CGXTextOC/MenuB/**/*.{h,m}",
+      "dependencies": {
+        "CGXTextOC/MenuA": [
+
+        ]
+      }
+    }
+  ]
+}

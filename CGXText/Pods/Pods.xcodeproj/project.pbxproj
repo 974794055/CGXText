@@ -6,22 +6,49 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5537089FEFE188D5E4703A111AA801C8 /* CGXTextOC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 855C8585277C721185AC138C08F4A5BE /* Build configuration list for PBXAggregateTarget "CGXTextOC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CGXTextOC;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		E6D80D6CC136B50BE6F95F8B6610D33C /* Pods-CGXText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472231D4CB437AB7C5FC8EB9B432B551 /* Pods-CGXText-dummy.m */; };
+		692822A36FB4B7A5A05BEEE6A319F89F /* Pods-CGXText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472231D4CB437AB7C5FC8EB9B432B551 /* Pods-CGXText-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FAD229EE04957B3C54575F82455B29E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5537089FEFE188D5E4703A111AA801C8;
+			remoteInfo = CGXTextOC;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		09BB2FD1DCC3AF0DE3CBC09F72F893EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		15DFADE05CCDC2F49D4F0BF871FAE5BE /* Pods-CGXText-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXText-acknowledgements.plist"; sourceTree = "<group>"; };
+		16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.release.xcconfig; sourceTree = "<group>"; };
+		21D598DF8C8C231ED75B22E8A7D116E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		349471CC25285C079AE6067DB297795B /* Pods-CGXText-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXText-acknowledgements.markdown"; sourceTree = "<group>"; };
 		472231D4CB437AB7C5FC8EB9B432B551 /* Pods-CGXText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXText-dummy.m"; sourceTree = "<group>"; };
+		6C1021D5CC736BA6CB0CCC2772A49021 /* CGXTextOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXTextOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		837A3CCFA71A2DCCA1C8C29B992C7E00 /* libPods-CGXText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CGXText.a"; path = "libPods-CGXText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A86106F51679D61A3806E3C9B69DDBD8 /* Pods-CGXText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXText.release.xcconfig"; sourceTree = "<group>"; };
 		F2003D29308C1648C2FD383828F85FB2 /* Pods-CGXText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXText.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C74D0544775E14287CDD5F83D3C5779 /* Frameworks */ = {
+		D510A43E6F9EADBC484CC5951C7D1972 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,12 +58,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0993A12DF983064B93FC2F135F17C1D3 /* CGXTextOC */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC7EB145E981F3DCE3B3ACAD37E0EC /* Pod */,
+				8A48E4E2802B1047C8D6DBC26662E2BE /* Support Files */,
+			);
+			name = CGXTextOC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		25DD39362A575D0947F19E48DD728B00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				837A3CCFA71A2DCCA1C8C29B992C7E00 /* libPods-CGXText.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7D05ECB6BCF8B33FA0B6C110EDE6D9BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0993A12DF983064B93FC2F135F17C1D3 /* CGXTextOC */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		879E29751A26029B55434D320E89F704 /* Pods-CGXText */ = {
@@ -52,6 +97,16 @@
 			path = "Target Support Files/Pods-CGXText";
 			sourceTree = "<group>";
 		};
+		8A48E4E2802B1047C8D6DBC26662E2BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */,
+				16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXText/Pods/Target Support Files/CGXTextOC";
+			sourceTree = "<group>";
+		};
 		9DC0F9C971F5E43642CD463D70148702 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +115,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		AAEC7EB145E981F3DCE3B3ACAD37E0EC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C1021D5CC736BA6CB0CCC2772A49021 /* CGXTextOC.podspec */,
+				21D598DF8C8C231ED75B22E8A7D116E9 /* LICENSE */,
+				09BB2FD1DCC3AF0DE3CBC09F72F893EF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7D05ECB6BCF8B33FA0B6C110EDE6D9BD /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				25DD39362A575D0947F19E48DD728B00 /* Products */,
 				9DC0F9C971F5E43642CD463D70148702 /* Targets Support Files */,
@@ -80,7 +146,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A20E8087AA45527ECEE46AD12E8BC08F /* Headers */ = {
+		94C42EDB2CC64576DA0E38076B01A273 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,15 +158,16 @@
 /* Begin PBXNativeTarget section */
 		ED50DB57C085BFA5BFB215A197701D87 /* Pods-CGXText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCD6A0EFEE0714B1530E58971B525BFF /* Build configuration list for PBXNativeTarget "Pods-CGXText" */;
+			buildConfigurationList = 4EF39419EF811C33DA7A16B456357C0F /* Build configuration list for PBXNativeTarget "Pods-CGXText" */;
 			buildPhases = (
-				A20E8087AA45527ECEE46AD12E8BC08F /* Headers */,
-				E4501B3AF45FDE5E1BEFA5B09B0F67A8 /* Sources */,
-				7C74D0544775E14287CDD5F83D3C5779 /* Frameworks */,
+				94C42EDB2CC64576DA0E38076B01A273 /* Headers */,
+				5C15170533873CF499A51A92ABAD63B1 /* Sources */,
+				D510A43E6F9EADBC484CC5951C7D1972 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D424FE74078FA60670C3858F76C001C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CGXText";
 			productName = "Pods-CGXText";
@@ -129,24 +196,55 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5537089FEFE188D5E4703A111AA801C8 /* CGXTextOC */,
 				ED50DB57C085BFA5BFB215A197701D87 /* Pods-CGXText */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E4501B3AF45FDE5E1BEFA5B09B0F67A8 /* Sources */ = {
+		5C15170533873CF499A51A92ABAD63B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D80D6CC136B50BE6F95F8B6610D33C /* Pods-CGXText-dummy.m in Sources */,
+				692822A36FB4B7A5A05BEEE6A319F89F /* Pods-CGXText-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D424FE74078FA60670C3858F76C001C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGXTextOC;
+			target = 5537089FEFE188D5E4703A111AA801C8 /* CGXTextOC */;
+			targetProxy = FAD229EE04957B3C54575F82455B29E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1F06C64E5D481E1A112ABA8F6876C3F6 /* Release */ = {
+		01861A83CECE65AF340AE3B7FE5EEE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2003D29308C1648C2FD383828F85FB2 /* Pods-CGXText.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6224C0903C7D818C39B970BC09F8ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A86106F51679D61A3806E3C9B69DDBD8 /* Pods-CGXText.release.xcconfig */;
 			buildSettings = {
@@ -168,26 +266,22 @@
 			};
 			name = Release;
 		};
-		6FDCC84947CD442811FBE0AEB891682F /* Debug */ = {
+		84097E4BC8291A0202B72533EED3841B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2003D29308C1648C2FD383828F85FB2 /* Pods-CGXText.debug.xcconfig */;
+			baseConfigurationReference = 16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DF792B5675818867C95F03EE9A5D3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -251,6 +345,22 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AB60C9B2412BD8557F8A761E68C5DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -327,11 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCD6A0EFEE0714B1530E58971B525BFF /* Build configuration list for PBXNativeTarget "Pods-CGXText" */ = {
+		4EF39419EF811C33DA7A16B456357C0F /* Build configuration list for PBXNativeTarget "Pods-CGXText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FDCC84947CD442811FBE0AEB891682F /* Debug */,
-				1F06C64E5D481E1A112ABA8F6876C3F6 /* Release */,
+				01861A83CECE65AF340AE3B7FE5EEE13 /* Debug */,
+				5C6224C0903C7D818C39B970BC09F8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855C8585277C721185AC138C08F4A5BE /* Build configuration list for PBXAggregateTarget "CGXTextOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB60C9B2412BD8557F8A761E68C5DBE /* Debug */,
+				84097E4BC8291A0202B72533EED3841B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

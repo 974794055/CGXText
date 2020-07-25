@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 4751c38d18523e8daeb5a64b92842bb4ca2a220f
+PODS:
+  - CGXTextOC (0.0.2):
+    - CGXTextOC/MenuA (= 0.0.2)
+    - CGXTextOC/MenuB (= 0.0.2)
+  - CGXTextOC/MenuA (0.0.2)
+  - CGXTextOC/MenuB (0.0.2):
+    - CGXTextOC/MenuA
+
+DEPENDENCIES:
+  - CGXTextOC (from `../`)
+
+EXTERNAL SOURCES:
+  CGXTextOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXTextOC: 662e9b152e86d830e02170100116741ddc103e34
+
+PODFILE CHECKSUM: 5080d6d658c091254f308a5de9c3882ef9beed2e
 
 COCOAPODS: 1.10.0.beta.1

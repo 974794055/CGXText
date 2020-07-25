@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = "CGXText"    #存储库名称
+s.name         = "CGXTextOC"    #存储库名称
 s.version      = "0.0.2"      #版本号，与tag值一致
 s.summary      = "CGXText测试上次cocoapod的库"  #简介
 s.description  = "CGXText测试上次cocoapod的空库"  #描述
@@ -23,7 +23,6 @@ s.public_header_files = 'CGXTextOC/CGXTextOC.h'
   
   s.subspec 'MenuB' do |ss|
      ss.source_files = 'CGXTextOC/MenuB/**/*.{h,m}'
-     ss.dependency 'CGXTextOC/MenuA'
    end
 
 end

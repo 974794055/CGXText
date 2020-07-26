@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true #是否支持ARC
     s.frameworks = 'UIKit'
     
-    
     #需要托管的源代码路径
     s.source_files = 'CGXTextOC/CGXTextOC.h'
     #开源库头文件

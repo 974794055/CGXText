@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9ECACC6D24CC88240080606D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC6A24CC88230080606D /* LICENSE */; };
-		9ECACC6E24CC88240080606D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC6B24CC88230080606D /* README.md */; };
-		9ECACC6F24CC88240080606D /* CGXTextOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC6C24CC88240080606D /* CGXTextOC.podspec */; };
+		9ECACC7324CC899E0080606D /* CGXTextOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC7024CC899E0080606D /* CGXTextOC.podspec */; };
+		9ECACC7424CC899E0080606D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC7124CC899E0080606D /* LICENSE */; };
+		9ECACC7524CC899E0080606D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9ECACC7224CC899E0080606D /* README.md */; };
 		9EED802224CC80A200699306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED802124CC80A200699306 /* AppDelegate.m */; };
 		9EED802524CC80A200699306 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED802424CC80A200699306 /* SceneDelegate.m */; };
 		9EED802824CC80A200699306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED802724CC80A200699306 /* ViewController.m */; };
@@ -22,9 +22,9 @@
 
 /* Begin PBXFileReference section */
 		85AC96BB7604E47B14FB00E4 /* Pods-CGXText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXText.release.xcconfig"; path = "Target Support Files/Pods-CGXText/Pods-CGXText.release.xcconfig"; sourceTree = "<group>"; };
-		9ECACC6A24CC88230080606D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		9ECACC6B24CC88230080606D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
-		9ECACC6C24CC88240080606D /* CGXTextOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXTextOC.podspec; path = ../../../CGXTextOC.podspec; sourceTree = "<group>"; };
+		9ECACC7024CC899E0080606D /* CGXTextOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXTextOC.podspec; path = ../../../CGXTextOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECACC7124CC899E0080606D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		9ECACC7224CC899E0080606D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		9EED801D24CC80A200699306 /* CGXText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGXText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EED802024CC80A200699306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EED802124CC80A200699306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,9 +73,9 @@
 		9ECACC6924CC880C0080606D /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9ECACC6C24CC88240080606D /* CGXTextOC.podspec */,
-				9ECACC6A24CC88230080606D /* LICENSE */,
-				9ECACC6B24CC88230080606D /* README.md */,
+				9ECACC7024CC899E0080606D /* CGXTextOC.podspec */,
+				9ECACC7124CC899E0080606D /* LICENSE */,
+				9ECACC7224CC899E0080606D /* README.md */,
 			);
 			path = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -175,12 +175,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECACC6F24CC88240080606D /* CGXTextOC.podspec in Resources */,
+				9ECACC7524CC899E0080606D /* README.md in Resources */,
 				9EED803024CC80A300699306 /* LaunchScreen.storyboard in Resources */,
 				9EED802D24CC80A300699306 /* Assets.xcassets in Resources */,
-				9ECACC6E24CC88240080606D /* README.md in Resources */,
-				9ECACC6D24CC88240080606D /* LICENSE in Resources */,
+				9ECACC7324CC899E0080606D /* CGXTextOC.podspec in Resources */,
 				9EED802B24CC80A200699306 /* Main.storyboard in Resources */,
+				9ECACC7424CC899E0080606D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAD229EE04957B3C54575F82455B29E0 /* PBXContainerItemProxy */ = {
+		6ACADD2FB472E912D1F94F2895BA938C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,18 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09BB2FD1DCC3AF0DE3CBC09F72F893EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		01CC93305D09F0D8061E7E4A6F8D29AA /* CGXTextOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.debug.xcconfig; sourceTree = "<group>"; };
 		15DFADE05CCDC2F49D4F0BF871FAE5BE /* Pods-CGXText-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXText-acknowledgements.plist"; sourceTree = "<group>"; };
-		16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.release.xcconfig; sourceTree = "<group>"; };
-		21D598DF8C8C231ED75B22E8A7D116E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		319887B5628BEF4C4F6CEB536F7F75E3 /* CGXTextOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXTextOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		349471CC25285C079AE6067DB297795B /* Pods-CGXText-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXText-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AE0F17F0AECCF0C4F4CE0F3B47D77B4 /* CGXTextOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.release.xcconfig; sourceTree = "<group>"; };
 		472231D4CB437AB7C5FC8EB9B432B551 /* Pods-CGXText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXText-dummy.m"; sourceTree = "<group>"; };
-		6C1021D5CC736BA6CB0CCC2772A49021 /* CGXTextOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXTextOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		837A3CCFA71A2DCCA1C8C29B992C7E00 /* libPods-CGXText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CGXText.a"; path = "libPods-CGXText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXTextOC.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A86106F51679D61A3806E3C9B69DDBD8 /* Pods-CGXText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXText.release.xcconfig"; sourceTree = "<group>"; };
+		C3D3C2D9C25ED91FBAF347D6269B9E9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DDC8FB447A2D51D92D5DD330EDE71B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F2003D29308C1648C2FD383828F85FB2 /* Pods-CGXText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXText.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF7371F973C0BC78F137A96A7277909 /* CGXTextOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXTextOC.h; path = CGXTextOC/CGXTextOC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +59,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0993A12DF983064B93FC2F135F17C1D3 /* CGXTextOC */ = {
+		0DCB0CA1E13DB262E55C0787B2C0EECC /* CGXTextOC */ = {
 			isa = PBXGroup;
 			children = (
-				AAEC7EB145E981F3DCE3B3ACAD37E0EC /* Pod */,
-				8A48E4E2802B1047C8D6DBC26662E2BE /* Support Files */,
+				FEF7371F973C0BC78F137A96A7277909 /* CGXTextOC.h */,
+				913C73154E1CAF4B29EBF30AF6AFFABF /* Pod */,
+				43F7E1883EAF1DA3B4CEDDEF4E4B039A /* Support Files */,
 			);
 			name = CGXTextOC;
 			path = ../..;
@@ -76,12 +78,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D05ECB6BCF8B33FA0B6C110EDE6D9BD /* Development Pods */ = {
+		43F7E1883EAF1DA3B4CEDDEF4E4B039A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0993A12DF983064B93FC2F135F17C1D3 /* CGXTextOC */,
+				01CC93305D09F0D8061E7E4A6F8D29AA /* CGXTextOC.debug.xcconfig */,
+				3AE0F17F0AECCF0C4F4CE0F3B47D77B4 /* CGXTextOC.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "CGXText/Pods/Target Support Files/CGXTextOC";
 			sourceTree = "<group>";
 		};
 		879E29751A26029B55434D320E89F704 /* Pods-CGXText */ = {
@@ -97,14 +101,14 @@
 			path = "Target Support Files/Pods-CGXText";
 			sourceTree = "<group>";
 		};
-		8A48E4E2802B1047C8D6DBC26662E2BE /* Support Files */ = {
+		913C73154E1CAF4B29EBF30AF6AFFABF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */,
-				16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */,
+				319887B5628BEF4C4F6CEB536F7F75E3 /* CGXTextOC.podspec */,
+				DDC8FB447A2D51D92D5DD330EDE71B0E /* LICENSE */,
+				C3D3C2D9C25ED91FBAF347D6269B9E9B /* README.md */,
 			);
-			name = "Support Files";
-			path = "CGXText/Pods/Target Support Files/CGXTextOC";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9DC0F9C971F5E43642CD463D70148702 /* Targets Support Files */ = {
@@ -115,21 +119,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AAEC7EB145E981F3DCE3B3ACAD37E0EC /* Pod */ = {
+		B8189F45C546159BF6D5118CB6B56737 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C1021D5CC736BA6CB0CCC2772A49021 /* CGXTextOC.podspec */,
-				21D598DF8C8C231ED75B22E8A7D116E9 /* LICENSE */,
-				09BB2FD1DCC3AF0DE3CBC09F72F893EF /* README.md */,
+				0DCB0CA1E13DB262E55C0787B2C0EECC /* CGXTextOC */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7D05ECB6BCF8B33FA0B6C110EDE6D9BD /* Development Pods */,
+				B8189F45C546159BF6D5118CB6B56737 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				25DD39362A575D0947F19E48DD728B00 /* Products */,
 				9DC0F9C971F5E43642CD463D70148702 /* Targets Support Files */,
@@ -167,7 +169,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D424FE74078FA60670C3858F76C001C6 /* PBXTargetDependency */,
+				2C0C4B5E6E978D7707442E66490C5A97 /* PBXTargetDependency */,
 			);
 			name = "Pods-CGXText";
 			productName = "Pods-CGXText";
@@ -214,11 +216,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D424FE74078FA60670C3858F76C001C6 /* PBXTargetDependency */ = {
+		2C0C4B5E6E978D7707442E66490C5A97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CGXTextOC;
 			target = 5537089FEFE188D5E4703A111AA801C8 /* CGXTextOC */;
-			targetProxy = FAD229EE04957B3C54575F82455B29E0 /* PBXContainerItemProxy */;
+			targetProxy = 6ACADD2FB472E912D1F94F2895BA938C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -268,7 +270,7 @@
 		};
 		84097E4BC8291A0202B72533EED3841B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16CBC22317462DCECA9A89913D3627EB /* CGXTextOC.release.xcconfig */;
+			baseConfigurationReference = 3AE0F17F0AECCF0C4F4CE0F3B47D77B4 /* CGXTextOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -350,7 +352,7 @@
 		};
 		9AB60C9B2412BD8557F8A761E68C5DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96AFAB4AA2D221F231DFE0B942DC93E0 /* CGXTextOC.debug.xcconfig */;
+			baseConfigurationReference = 01CC93305D09F0D8061E7E4A6F8D29AA /* CGXTextOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

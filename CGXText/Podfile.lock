@@ -3,8 +3,7 @@ PODS:
     - CGXTextOC/MenuA (= 0.0.2)
     - CGXTextOC/MenuB (= 0.0.2)
   - CGXTextOC/MenuA (0.0.2)
-  - CGXTextOC/MenuB (0.0.2):
-    - CGXTextOC/MenuA
+  - CGXTextOC/MenuB (0.0.2)
 
 DEPENDENCIES:
   - CGXTextOC (from `../`)
@@ -14,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CGXTextOC: 662e9b152e86d830e02170100116741ddc103e34
+  CGXTextOC: d204cc5e4b02510e93a314dab6e73d85403a12e5
 
 PODFILE CHECKSUM: 5080d6d658c091254f308a5de9c3882ef9beed2e
 

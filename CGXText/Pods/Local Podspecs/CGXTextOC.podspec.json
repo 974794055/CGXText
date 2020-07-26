@@ -29,12 +29,7 @@
     },
     {
       "name": "MenuB",
-      "source_files": "CGXTextOC/MenuB/**/*.{h,m}",
-      "dependencies": {
-        "CGXTextOC/MenuA": [
-
-        ]
-      }
+      "source_files": "CGXTextOC/MenuB/**/*.{h,m}"
     }
   ]
 }

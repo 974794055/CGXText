@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "CGXTextOC"    #存储库名称
+    s.name         = "CGXText"    #存储库名称
     s.version      = "0.0.2"      #版本号，与tag值一致
     s.summary      = "CGXText测试上次cocoapod的库"  #简介
     s.description  = "CGXText测试上次cocoapod的空库"  #描述
@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/974794055/CGXText.git", :tag => s.version }         #存储库的git地址，以及tag值
     s.requires_arc = true #是否支持ARC
     s.frameworks = 'UIKit'
+    
     
     #需要托管的源代码路径
     s.source_files = 'CGXTextOC/CGXTextOC.h'
